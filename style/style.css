@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+th:nth-of-type(1) {
+    width: 5%;
+    background-color: #f8f8f869;
+}
+
+th:nth-of-type(2) {
+    width: 7%;
+    color: #333;
+    opacity: 0.85;
+    background-color: #80aba9;
+}
+
+th:nth-of-type(3) {
+    width: 18%;
+    color: #333;
+    opacity: 0.85;
+    background-color: #f08362;
+}
+
+th:nth-of-type(4) {
+    width: 22%;
+    color: #333;
+    opacity: 0.85;
+    background-color: #bbc8e6;
+}
+
+th:nth-of-type(5) {
+    width: 7%;
+    color: #333;
+    opacity: 0.85;
+    background-color: #2a83a2;
+}
+
+th:nth-of-type(6) {
+    width: 25%;
+    color: #333;
+    opacity: 0.85;
+    background-color: #f2f2b0;
+}
+
+tr:not(:first-child) {
+    height: 80px;
+}
+
+p,
+h1,
+tr {
+    font-family: 'Yuji Mai', serif;
+    text-align: center;
+    margin: 10px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+table tr:not(:last-child) {
+    border-bottom: solid 1px #eee;
+}
+
+table tr:not(:first-child) {
+    background-color: #fff;
+}
+
+
+table td:not(:first-child):hover {
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+table tr td:not(:first-child):hover {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/Dominic-min.png);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode: lighten;
+}
+
+table tr:nth-child(3) td:nth-child(3):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/ITO-k-min.png);
+}
+
+
+table tr:nth-child(2) td:nth-child(3):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/NAGASAKI-min.png);
+}
+
+table tr:nth-child(4) td:nth-child(3):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/INAMURA-min.png);
+}
+
+table tr:nth-child(6) td:nth-child(3):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/TAYANAGI-min.png);
+}
+
+table tr:nth-child(7) td:nth-child(3):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/TOMINAGA-min.png);
+}
+
+table tr:nth-child(2) td:nth-child(4):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/YASUI-min.png);
+}
+
+
+table tr:nth-child(4) td:nth-child(4):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/TERASAWA-min.png);
+}
+
+
+table tr:nth-child(5) td:nth-child(4):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/MIMA-y-min.png);
+}
+
+table tr:nth-child(6) td:nth-child(4):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/MIMA-y-min.png);
+}
+
+table tr:nth-child(5) td:nth-child(6):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/MIMA-y-min.png);
+}
+
+table tr:nth-child(6) td:nth-child(6):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/MIMA-y-min.png);
+}
+
+table tr:nth-child(4) td:nth-child(6):hover  {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/takekawa-yoshinari.png);
+}
+
+table tr:nth-child(3) td:nth-child(6):hover {
+    background-image: url(https://www.fun.ac.jp/wp-content/uploads/2020/02/HANADA-min.png);
+}
+
+#spot {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#lec_name {
+    padding-top: 10px;
+}
+
+body{
+    background-color: #faf6f6;
+}
